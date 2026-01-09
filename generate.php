@@ -326,7 +326,7 @@ $certificateTitle = $certificateTitles[$certificateType] ?? 'Certificate of Achi
 
         <div class="action-buttons">
             <button onclick="window.print()" class="btn btn-secondary">🖨️ Print Certificate</button>
-            <button onclick="window.close()" class="btn btn-outline">✕ Close</button>
+            <button onclick="window.history.back()" class="btn btn-outline">← Back</button>
             <button onclick="window.location.href='certificate.php'" class="btn btn-success">➕ Create Another</button>
         </div>
     </div>
